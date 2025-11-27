@@ -147,11 +147,7 @@ format:
 <br><i class="fa-solid fa-file-pdf"></i> [Посмотреть сертификат](yaprofi_cert.pdf){target="_blank"}
 :::
 
-::: {.card}
-**<i class="fa-solid fa-certificate"></i> Stepik R**
-<br>Сертификаты:
-<br>[Часть 1 (PDF)](https://stepik.org/cert/2182669){target="_blank"} | [Часть 2 (PDF)](https://stepik.org/cert/2528863){target="_blank"}
-:::
+
 
 :::
 
