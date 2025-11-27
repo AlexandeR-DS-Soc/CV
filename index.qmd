@@ -1,0 +1,160 @@
+---
+pagetitle: "Александр Мелихов - CV"
+format:
+  html:
+    css: styles.css
+    page-layout: custom
+    embed-resources: true
+    theme: none
+---
+
+<!-- Обертка всего резюме -->
+::: {.page-wrapper}
+
+::: {.resume-container}
+
+<!-- ЛЕВАЯ КОЛОНКА (САЙДБАР) -->
+::: {.sidebar}
+
+<div class="profile-container">
+  <img src="avatar.jpg" class="avatar" alt="Photo">
+</div>
+
+<h1>Александр<br>Мелихов</h1>
+<div class="position">Социолог-исследователь<br>Аналитик данных</div>
+
+<div class="separator"></div>
+
+## Контакты
+
+<ul class="contact-list">
+  <li><i class="fa-solid fa-envelope"></i> <a href="mailto:amelikhov@edu.hse.ru">amelikhov@edu.hse.ru</a></li>
+  <li><i class="fa-brands fa-telegram"></i> <a href="https://t.me/Cyber_marginal">@Cyber_marginal</a></li>
+  <li><i class="fa-solid fa-phone"></i> +7 (922) 116-95-02</li>
+  <li><i class="fa-solid fa-location-dot"></i> Москва</li>
+  <li><i class="fa-solid fa-globe"></i> <a href="https://alexrforscience.github.io/Sociology-R-Data_analysis/">Мой Блог</a></li>
+</ul>
+
+<div class="separator"></div>
+
+## Навыки
+
+### Анализ & Статистика
+<div class="tags">
+  <span>R (Tidyverse)</span>
+  <span>Data.table</span>
+  <span>SPSS</span>
+  <span>Statistics</span>
+  <span>SPSS</span>
+</div>
+
+### Визуализация
+<div class="tags">
+  <span>ggplot2</span>
+  <span>Plotly</span>
+  <span>Excel/PPT</span>
+</div>
+
+### Инжиниринг
+<div class="tags">
+  <span>SQL</span>
+  <span>Web Scraping</span>
+  <span>API</span>
+  <span>Git</span>
+</div>
+
+### Tools
+<div class="tags">
+  <span>Quarto</span>
+  <span>RMarkdown</span>
+  <span>Shiny</span>
+</div>
+
+<div class="separator"></div>
+
+## Образование
+
+<div class="edu-block">
+**Магистратура**
+<br>_Демография (НИУ ВШЭ)_
+<br>2025 — 2027
+</div>
+
+<div class="edu-block">
+**Бакалавриат**
+<br>_Социология (НИУ ВШЭ)_
+<br>2021 — 2025
+</div>
+
+:::
+
+<!-- ПРАВАЯ КОЛОНКА (ОСНОВНАЯ) -->
+::: {.main}
+
+## Обо мне
+
+Аналитик данных с социологическим бэкграундом. Я специализируюсь на языке **R**: пишу пакеты, автоматизирую отчетность и создаю интерактивные инструменты. Также в свой стек включают **Python**, **SQL** и **SPSS**. Автор блога [Sociology & R Data Analysis](https://alexrforscience.github.io/Sociology-R-Data_analysis/). 
+
+Моя цель — применять методы Data Science (NLP, скрейпинг, статистику) для решения исследовательских и бизнесовых задач.
+
+---
+
+## Опыт работы
+
+### Специалист по анализу данных / Маркетинговый аналитик
+**Factory of Marketing** | *Октябрь 2024 — Октябрь 2025*
+
+*   **Автоматизация:** Заменил ручную обработку опросов на автоматические пайплайны в R, сократив время подготовки отчетов на 40%.
+*   **R-пакет:** Разработал архитектуру внутреннего пакета для генерации слайдов и таблиц. Это позволило команде безболезненно перейти с SPSS на R.
+*   **Текст (NLP):** Внедрил алгоритмы классификации открытых ответов, превратив качественные данные в измеримые метрики.
+*   **Качество данных:** Написал скрипты валидации, которые автоматически ловят логические ошибки в анкетах.
+
+### Учебный ассистент
+**НИУ ВШЭ** | *Апрель 2024 — Октябрь 2025*
+
+*   Ассистировал на курсах: *«Демография»*, *«Анализ данных»*, *«Работа с большими данными»*.
+*   Проверял код студентов, проводил консультации по сложным темам статистики и программирования.
+
+### Исследователь
+**Фонд «Второе дыхание»** | *Январь 2024 — Июнь 2025*
+
+*   Провел бенчмаркинг (сравнительный анализ) фондов-конкурентов.
+*   Участвовал в дизайне анкеты и подготовил аналитический отчет по результатам количественного этапа.
+
+### Социолог-исследователь
+**Экспедиция «Открываем Россию заново»** | *Ноябрь 2023*
+
+*   Работа в архивах и проведение глубинных интервью.
+*   Результат: создание [статьи в Википедии](https://ru.wikipedia.org/wiki/Филиал_Святителя_Луки_больницы_Святителя_Алексия).
+
+---
+
+## Достижения
+
+::: {.grid-achieve}
+
+::: {.card}
+**<i class="fa-solid fa-trophy"></i> Open Doors (2025)**
+<br>Призер олимпиады
+<br>_Прикладная математика и ИИ_
+:::
+
+::: {.card}
+**<i class="fa-solid fa-medal"></i> Я — профессионал (2025)**
+<br>Призер олимпиады
+<br>_Социология_
+:::
+
+::: {.card}
+**<i class="fa-solid fa-certificate"></i> Stepik R**
+<br>Сертификаты:
+<br>[Часть 1](https://stepik.org/cert/2182669) | [Часть 2](https://stepik.org/cert/2528863)
+:::
+
+:::
+
+:::
+
+:::
+
+:::
